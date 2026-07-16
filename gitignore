@@ -1,0 +1,25 @@
+# Environment variables / secrets
+.env
+.env.*
+*.key
+credentials.json
+secrets.json
+
+# n8n local data (if self-hosting n8n from this repo)
+.n8n/
+n8n_data/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor/IDE
+.vscode/
+.idea/
+
+# Logs
+*.log
+npm-debug.log*
+
+# Node (only relevant if you add custom nodes/scripts)
+node_modules/
